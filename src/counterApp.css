@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("11.jpg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #e2921a; 
+    padding-top: 200px;
+    padding-right: 300px;
+}
+
+button {
+    background-color: #30577a; 
+    border: none;
+    color: white; 
+    padding: 10px 10px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    position: relative;
+    right: 10%;
+    
+}
+
+button:hover {
+    background-color: #081e31; 
+}
+
+button:focus {
+    outline: none; 
+}
